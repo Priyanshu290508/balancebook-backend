@@ -1,0 +1,165 @@
+{
+  "products": [
+    {
+      "id": "p-1",
+      "name": "Basmati Rice",
+      "category": "Grains",
+      "unit": "kg",
+      "sell_price": 60,
+      "avg_cost": 48,
+      "stock_qty": 45,
+      "low_stock_limit": 10,
+      "is_active": true
+    },
+    {
+      "id": "p-2",
+      "name": "Arhar Dal (Toor Dal)",
+      "category": "Pulses",
+      "unit": "kg",
+      "sell_price": 140,
+      "avg_cost": 115,
+      "stock_qty": 28,
+      "low_stock_limit": 8,
+      "is_active": true
+    },
+    {
+      "id": "p-3",
+      "name": "Fortune Mustard Oil",
+      "category": "Cooking Oil",
+      "unit": "L",
+      "sell_price": 165,
+      "avg_cost": 142,
+      "stock_qty": 4,
+      "low_stock_limit": 6,
+      "is_active": true
+    },
+    {
+      "id": "p-4",
+      "name": "Tata Salt 1kg",
+      "category": "Spices & Salt",
+      "unit": "packet",
+      "sell_price": 28,
+      "avg_cost": 22.5,
+      "stock_qty": 50,
+      "low_stock_limit": 15,
+      "is_active": true
+    },
+    {
+      "id": "p-5",
+      "name": "Aashirvaad Atta 5kg",
+      "category": "Grains",
+      "unit": "packet",
+      "sell_price": 230,
+      "avg_cost": 195,
+      "stock_qty": 18,
+      "low_stock_limit": 5,
+      "is_active": true
+    },
+    {
+      "id": "p-6",
+      "name": "Amul Taaza Milk 500ml",
+      "category": "Dairy",
+      "unit": "packet",
+      "sell_price": 27,
+      "avg_cost": 24.5,
+      "stock_qty": 12,
+      "low_stock_limit": 5,
+      "is_active": true
+    },
+    {
+      "id": "p-7",
+      "name": "MDH Turmeric Powder 100g",
+      "category": "Spices",
+      "unit": "packet",
+      "sell_price": 38,
+      "avg_cost": 29,
+      "stock_qty": 22,
+      "low_stock_limit": 5,
+      "is_active": true
+    },
+    {
+      "id": "p-8",
+      "name": "Sugar Regular",
+      "category": "Grocery",
+      "unit": "kg",
+      "sell_price": 44,
+      "avg_cost": 37,
+      "stock_qty": 85,
+      "low_stock_limit": 20,
+      "is_active": true
+    },
+    {
+      "id": "p-9",
+      "name": "Parle-G Biscuit 100g",
+      "category": "Snacks",
+      "unit": "packet",
+      "sell_price": 10,
+      "avg_cost": 8.2,
+      "stock_qty": 60,
+      "low_stock_limit": 15,
+      "is_active": true
+    },
+    {
+      "id": "p-10",
+      "name": "Rajdhani Besan 500g",
+      "category": "Pulses",
+      "unit": "packet",
+      "sell_price": 55,
+      "avg_cost": 46,
+      "stock_qty": 3,
+      "low_stock_limit": 6,
+      "is_active": true
+    }
+  ],
+  "purchases": [
+    {
+      "id": "pur-1",
+      "product_id": "p-1",
+      "product_name": "Basmati Rice",
+      "supplier": "Kisan Mandi Traders",
+      "qty": 50,
+      "cost_per_unit": 48,
+      "total_cost": 2400,
+      "purchased_at": "2026-10-25",
+      "created_at": "2026-10-25T10:00:00.000Z"
+    },
+    {
+      "id": "pur-2",
+      "product_id": "p-2",
+      "product_name": "Arhar Dal (Toor Dal)",
+      "supplier": "Agrawal Wholesale",
+      "qty": 30,
+      "cost_per_unit": 115,
+      "total_cost": 3450,
+      "purchased_at": "2026-10-25",
+      "created_at": "2026-10-25T10:30:00.000Z"
+    }
+  ],
+  "sales": [
+    {
+      "id": "sale-1",
+      "product_id": "p-1",
+      "product_name": "Basmati Rice",
+      "qty": 5,
+      "sell_per_unit": 60,
+      "cost_at_sale": 48,
+      "total_sale": 300,
+      "profit": 60,
+      "sold_at": "2026-10-25",
+      "created_at": "2026-10-25T11:00:00.000Z"
+    },
+    {
+      "id": "sale-2",
+      "product_id": "p-2",
+      "product_name": "Arhar Dal (Toor Dal)",
+      "qty": 2,
+      "sell_per_unit": 140,
+      "cost_at_sale": 115,
+      "total_sale": 280,
+      "profit": 50,
+      "sold_at": "2026-10-25",
+      "created_at": "2026-10-25T11:30:00.000Z"
+    }
+  ],
+  "updated_at": "2026-10-26T12:00:00.000Z"
+}
